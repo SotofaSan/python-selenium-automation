@@ -2,8 +2,8 @@
 Feature: Test Scenarios for Search functionality
 
   Scenario: User can search for a product
-    Given Open Google page
-    When Input Watches into search field
+    Given Open Amazon page
+    When Input Dress into search field
     And Click on search icon
-    Then Product results for Watches are shown
-    And First result contains Watches
+    Then Product results for Dress are shown
+  #  And First result contains Watches

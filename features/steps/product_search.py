@@ -9,9 +9,9 @@ RESULTS_FOUND_MESSAGE = (By.XPATH, "//div[contains(@class,'commercial-unit-deskt
 RESULTS = (By.XPATH, "//div[@class='g']")
 
 
-@given('Open Google page')
-def open_google(context):
-    context.driver.get('https://www.google.com/')
+@given('Open Amazon page')
+def open_amazon(context):
+    context.driver.get('https://www.amazon.com/')
 
 
 @when('Input {search_word} into search field')
